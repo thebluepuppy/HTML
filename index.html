@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>HTML/CSS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- import css -->
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+
+<body>
+    <div id="header" class="header">
+        <!-- header menu navigation bar -->
+        <div id="menu-nav" class="">
+            <a href="index.html"><img src="img/Logo.png"></a>
+            <ul class="menu">
+                <li class="menu-item current-item"><a class="item-link" href="#header">HOME</a></li>
+                <li class="menu-item"><a class="item-link" href="#features">FEATURES</a></li>
+                <li class="menu-item"><a class="item-link" href="#gallery">GALLERY</a></li>
+                <li class="menu-item"><a class="item-link" href="#video">VIDEO</a></li>
+                <li class="menu-item"><a class="item-link" href="#prices">PRICES</a></li>
+                <li class="menu-item"><a class="item-link" href="#testimonials">TESTIMONIALS</a></li>
+                <li class="menu-item"><a class="item-link" href="#download">DOWNLOAD</a></li>
+                <li class="menu-item"><a class="item-link" href="#contact">CONTACT</a></li>
+            </ul>
+        </div>
+        <!-- end header menu navigaion bar -->
+
+        <!-- header slider -->
+        <div class="slider" id="slider1">
+            <div class="slide-item">
+                <img class="slide-img" src="img/Base.png">
+                <div class="slide-message">
+                    <h2 class="m-title">Simple, Beautiful <b>and Amazing</b></h2>
+                    <p class="m-content">I’m selfish, impatient and a little insecure. I make mistakes, I am out of control and at times hard to handle. But if you can’t handle me at my worst, then you sure as hell don’t deserve me at my best. ― Marilyn Monroe</p>
+
+                    <div class="button-control">
+                        <button class="custom-button">DOWNLOAD</button>
+                        <button class="custom-button">LEARN MORE</button>
+                    </div>
+
+                    <div class="available">
+                        <p>Available on:</p>
+                        <span class="icon"><img class="icon-img" src="img/logo-apple.svg"></span>
+                        <span class="icon"><img class="icon-img" src="img/logo-android.svg"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="slide-item">
+                <img class="slide-img" src="img/Base.png">
+                <div class="slide-message">
+                    <h2 class="m-title">Simple, Beautiful <b>and Amazing</b></h2>
+                    <p class="m-content">I’m selfish, impatient and a little insecure. I make mistakes, I am out of control and at times hard to handle. But if you can’t handle me at my worst, then you sure as hell don’t deserve me at my best. ― Marilyn Monroe</p>
+                </div>
+            </div>
+            <div class="slide-item">
+                <img class="slide-img" src="img/Base.png">
+                <div class="slide-message">
+                    <h2 class="m-title">Simple, Beautiful <b>and Amazing</b></h2>
+                    <p class="m-content">I’m selfish, impatient and a little insecure. I make mistakes, I am out of control and at times hard to handle. But if you can’t handle me at my worst, then you sure as hell don’t deserve me at my best. ― Marilyn Monroe</p>
+                </div>
+            </div>
+
+            <!-- nav slider -->
+
+            <button class="nav prev" onclick="changeSlide(this, -1)">
+                <img class="nav-img" src="img/nav-left.svg">
+            </button>
+            <button class="nav next" onclick="changeSlide(this, 1)">
+                <img class="nav-img" src="img/nav-right.svg">
+            </button>
+
+            <div class="nav-bottom">
+                <span class="slide-dot" onclick="chooseSlide(this, 1)"></span>
+                <span class="slide-dot" onclick="chooseSlide(this, 2)"></span>
+                <span class="slide-dot" onclick="chooseSlide(this, 3)"></span>
+            </div>
+            <!-- end nav slider -->
+        </div>
+        <!-- end slider -->
+    </div>
+
+    <div id="features" class="features">
+        <div class="message">
+            <h2 class="m-title">summarise the features</h2>
+            <p>summarise what your product is all about</p>
+        </div>
+        <ul class="list">
+            <li class="item">
+                <span class="icon"><img class="icon-img" src="img/layer.svg"></span>
+                <h2 class="m-title">ATTRACTIVE LAYOUT</h2>
+                <p class="m-content">There're nothing here.</p>
+            </li>
+            <li class="item">
+                <span class="icon"><img class="icon-img" src="img/mobile.svg"></span>
+                <h2 class="m-title">FRESH DESIGN</h2>
+                <p class="m-content">There're nothing here.</p>
+            </li>
+            <li class="item">
+                <span class="icon"><img class="icon-img" src="img/chat-elip.svg"></span>
+                <h2 class="m-title">MULTIPURPOSE</h2>
+                <p class="m-content">There're nothing here.</p>
+            </li>
+            <li class="item">
+                <span class="icon"><img class="icon-img" src="img/chat-rectangle.svg"></span>
+                <h2 class="m-title">EASY TO CUSTOMIZE</h2>
+                <p class="m-content">There're nothing here.</p>
+            </li>
+        </ul>
+    </div>
+
+    <div id="gallery" class="gallery">
+        <div class="message">
+            <h2 class="m-title">summarise the gallery</h2>
+            <p>summarise what your product is all about</p>
+        </div>
+        <ul class="list">
+            <li class="item">
+                <div class="screen-shot">
+                    <img class="ss-back" src="img/screen-shot.png">
+                    <span class="ss-title">SCREEN SHOT 1</span>
+                </div>
+                <p class="m-content">There're nothing here.</p>
+            </li>
+            <li class="item">
+                <div class="screen-shot">
+                    <img class="ss-back" src="img/screen-shot.png">
+                    <span class="ss-title">SCREEN SHOT 2</span>
+                </div>
+                <p class="m-content">There're nothing here.</p>
+            </li>
+            <li class="item">
+                <div class="screen-shot">
+                    <img class="ss-back" src="img/screen-shot.png">
+                    <span class="ss-title">SCREEN SHOT 3</span>
+                </div>
+                <p class="m-content">There're nothing here.</p>
+            </li>
+            <li class="item">
+                <div class="screen-shot">
+                    <img class="ss-back" src="img/screen-shot.png">
+                    <span class="ss-title">SCREEN SHOT 4</span>
+                </div>
+                <p class="m-content">There're nothing here.</p>
+            </li>
+        </ul>
+    </div>
+
+    <div id="video" class="video">
+        <img class="back" src="img/back.png">
+        <div class="video-info">
+            <a class="icon" id="videolink" href=""><img class="icon-img" src="img/play.svg"></a>
+            <div class="message">
+                <h2 class="m-title">What the best Technology in <b>Action</b></h2>
+                <p class="m-content">There're nothing here...</p>
+            </div>
+        </div>
+        <div id="videostory" class="videostory">
+            <iframe class="iframe" width="853" height="480" src="https://www.youtube.com/embed/XI8S7WGPkH0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <div id="prices" class="prices">
+        <div class="message">
+            <h2 class="m-title">choose your price</h2>
+            <p>summarise what your product is all about</p>
+        </div>
+
+        <ul class="list">
+            <li class="item basic">
+                <p class="title">BASIC PACKAGE</p>
+                <p class="price">20$</p>
+                <p class="pros">Nullam suscipit vitae</p>
+                <p class="pros">Etiam faucibus</p>
+                <p class="pros">Vivamus viverra</p>
+                <button class="purchase">PURCHASE</button>
+            </li>
+            <li class="item profesional">
+                <p class="title">PROFESIONAL PACKAGE</p>
+                <p class="price">25$</p>
+                <p class="pros">Nullam suscipit vitae</p>
+                <p class="pros">Etiam faucibus</p>
+                <p class="pros">Vivamus viverra</p>
+                <p class="pros">Praesent pharetra</p>
+                <button class="purchase">PURCHASE</button>
+            </li>
+            <li class="item advanced">
+                <p class="title">ADVANCED PACKAGE</p>
+                <p class="price">30$</p>
+                <p class="pros">Nullam suscipit vitae</p>
+                <p class="pros">Etiam faucibus</p>
+                <p class="pros">Vivamus viverra</p>
+                <button class="purchase">PURCHASE</button>
+            </li>
+        </ul>
+    </div>
+
+    <div id="testimonials" class="testimonials">
+        <h2 class="title">Testimonials</h2>
+
+        <div class="slider" id="slider2">
+            <div class="slide-item">
+                <img class="slide-img" src="img/user.png">
+                <div class="block-quote">
+                    <p class="quote">
+                        There're nothing here.
+                    </p>
+                </div>
+            </div>
+            <div class="slide-item">
+                <img class="slide-img" src="img/user.png">
+                <div class="block-quote">
+                    <p class="quote">
+                        There're nothing here.
+                    </p>
+                    <p class="author"></p>
+                    <p class="company"></p>
+                </div>
+            </div>
+            <div class="slide-item">
+                <img class="slide-img" src="img/user.png">
+                <div class="block-quote">
+                    <p class="quote">
+                        There're nothing here.
+                    </p>
+                    <p class="author"></p>
+                    <p class="company"></p>
+                </div>
+            </div>
+
+            <div class="nav-bottom">
+                <span class="slide-dot" onclick="chooseSlide(this, 1)"></span>
+                <span class="slide-dot" onclick="chooseSlide(this, 2)"></span>
+                <span class="slide-dot" onclick="chooseSlide(this, 3)"></span>
+            </div>
+            <!-- end nav slider -->
+        </div>
+    </div>
+
+    <div id="download" class="download">
+        <p class="m-content">Do you Like this app?</p>
+        <button class="bt-download">DOWNLOAD NOW</button>
+    </div>
+
+    <div id="contact">
+        <img src="img/map1.png" class="map">
+        <form action="#" method="POST" class="form">
+            <h2 class="title">Contact</h2>
+            <input type="text" class="form-input" name="name" placeholder="Your name">
+            <input type="email" class="form-input" name="email" placeholder="Your email">
+            <input type="text" class="form-input" name="subject" placeholder="Subject">
+            <input type="text" class="form-input f-message" name="message" placeholder="Message">
+            <input type="submit" class="bt-submit" value="Send">
+        </form>
+    </div>
+
+    <div id="footer" class="footer">
+        <span class="copyright">Copyright &copy; 2013 | BAZINGER | All Rights Reserved</span>
+        <span class="policy">Terms of Service | Privact Policy</span>
+    </div>
+
+    <!-- import js -->
+    <script src="js/jQuery.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+
+</html>
